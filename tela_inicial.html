@@ -3,26 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css_TelaInicial.css">
     <title>Tela Inicial</title>
 </head>
 <body>
     <header>
         <h1>
-            Saldo R$:999.850,56
+            Saldo: R$:999.850,56
         </h1>
     </header>
     <main>
-        <h2>
-            Seus investimentos
-        </h2>
-        <img src="img/b3.png" alt ="b3"/>
-        <a href="TelaInvestir.html"><img src = "img/botao_investir.png" alt="invesir"/></a>
-        <a href="TelaAprenderMais.html"><img src = "img/botao_clique_aqui_saber_mais.png" alt="aprenda mais"/></a>
+        <ol class="seus_invest">
+            <li>
+                <h2>
+                    Seus investimentos
+                </h2>
+            </li>
+            <li class="center">
+                <img src="img/b3.png" alt ="b3" class="b3"/>
+            </li>
+        </ol>
+
+        <ol class="linha space_bet">
+            <a href="TelaInvestir.html"><img src = "img/botao_investir.png" alt="invesir" class="invst"/></a>
+            <a href="TelaAprenderMais.html"><img src = "img/botao_clique_aqui_saber_mais.png" alt="aprenda mais" class="saiba_mais"/></a>
+        </ol>
+
+        <ol>
+            <li class="center">
+                <a href="Tela_colocarinfo.html"><img src = "img/conta_bancaria.png" alt="vincular conta" class="vinc"/></a>
+            </li>
+        </ol>
     </main>
     <footer>
-        <a href="TelaChat.html"><img src = "img/chat.png" alt = "chat"/></a>
-        <img src = "img/cifrao.png" alt = "pagina atual"/>
-         <!-- não precisa de hyperlink, já estamos na página inicial-->
+            <a href="TelaChat.html"><img src = "img/chat.png" alt = "chat" class="chat"/></a>
+            <img src = "img/cifrao.png" alt = "pagina atual" class="sif"/>
     </footer>
 </body>
 </html>
