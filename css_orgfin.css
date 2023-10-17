@@ -10,6 +10,7 @@ header{
 main{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 h1{
@@ -23,7 +24,7 @@ h2{
     justify-content: center;
     align-items: center;
     height: 10rem;
-    margin: 3rem;
+    margin: 5rem;
 }
 
 h3{
@@ -32,7 +33,7 @@ h3{
     justify-content: center;
     align-items: center;
     height: 10rem;
-    margin: 3rem;
+    margin: 5rem;
 }
 
 .voltar{
@@ -51,6 +52,8 @@ h3{
 .home{
     height: 5rem;
     width: 5rem;
+    position: absolute;
+    right: 1rem;
 }
 
 .linha{
