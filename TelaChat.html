@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css_telachat.css">
     <title>Chat</title>
 </head>
 <body>
-    <header>
+    <header class="linha">
         <a href="tela_inicial.html">
-            <img src="img/seta.png" alt="Voltar">
+            <img src="img/seta.png" alt="Voltar" class="voltar">
         </a>
-        <img src="img/social.png" alt="social">
-        <img src="img/notificação.png" alt = "notificação">
-        <img src="img/direct.png" alt = "direct">
-        <img src="img/buscar.png" alt = "buscar">
+        <img src="img/social.png" alt="social" class="imagens_do_header">
+        <img src="img/notificação.png" alt = "notificação" class="imagens_do_header">
+        <img src="img/direct.png" alt = "direct" class="imagens_do_header">
+        <img src="img/buscar.png" alt = "buscar", class="imagens_do_header">
     </header>
 
-    <main>
+    <main class="coluna space-around">
         <h1>
             FOR YOU
         </h1>
         <h2>
             @ações_brasil
         </h2>
-        <img src="img/stonks.jpg" alt = "post">
-        <img src="img/like.png" alt="like">
-        <input type="text" placeholder="Comente...">
+        <ul class="linha">
+            <li><img src="img/stonks.jpg" alt = "post" class="imagem_stonks"></li>
+        </ul>
+        <ul class="linha">
+            <li><img src="img/like.png" alt="like"></li>
+            <li><input type="text" placeholder="Comente..."></li>
+
+        </ul>
+        
+        
+        
     </main>
 </body>
 </html>

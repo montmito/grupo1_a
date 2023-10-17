@@ -13,6 +13,9 @@
     width: 2.5rem;
     display: flex;
     justify-content: start;
+    position: absolute;
+    top:0.5rem;
+    left: 0.5rem;
 }
 
 header{
@@ -20,6 +23,8 @@ header{
     padding: 1rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    position:relative;
 }
 
 h1{
@@ -32,6 +37,11 @@ h1{
 .space-around{
     display:flex;
     align-items: space-around;
+}
+
+.space-between{
+    display:flex;
+    align-items: space-between;
 }
 
 
