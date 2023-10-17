@@ -1,0 +1,44 @@
+header{
+    border: 0.1rem black solid;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.voltar{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: start;
+    position:absolute;
+    top: 0.5rem;
+    left:0.5rem;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens_do_main{
+    padding: 1rem;
+    width: 6rem;
+    height: 4rem;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 3rem;
+}
+
+footer{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
