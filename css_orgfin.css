@@ -1,0 +1,24 @@
+header{
+    border: 0.1rem black solid;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.voltar{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: start;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
