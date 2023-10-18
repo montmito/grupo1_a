@@ -46,7 +46,7 @@ h1{
 main{
     position:relative;
     justify-content: center;
-    align-items: center;
+    
     
 }
 
@@ -78,14 +78,15 @@ ul{
 
 
 
-input{
 
-    position:absolute;
-    top:2rem;
-}
 
 .maozinha{
-    position: absolute;
-    left:0;
-    top:0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
