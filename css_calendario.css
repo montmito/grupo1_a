@@ -7,11 +7,11 @@ header{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgb(204, 200, 200);
     width: 90%;
     display: flex;
@@ -22,13 +22,13 @@ h2{
     width: 7%;
     position: absolute;
     left: 0.5rem;
-    top: 0.5rem;
+    top: 0.2rem;
 }
 
 .home{
     position: absolute;
     right: 1rem;
-    top: 4.5rem;
+    top: 2.5rem;
     height: 6%;
 }
 
@@ -44,6 +44,7 @@ main{
 .linha{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 li{
@@ -51,3 +52,6 @@ li{
     margin-right: 3rem;
 }
 
+table, th, td {
+    border: 1px solid;
+}
