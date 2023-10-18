@@ -4,10 +4,9 @@
     display: flex;
     justify-content: start;
     position:absolute;
-    top: 0.5rem;
+    top: 0.2rem;
     left:0.5rem;
 }
-
 
 header{
     border: 0.1rem black solid;
@@ -18,29 +17,25 @@ header{
     position: relative;
 }
 
-
 main{
-    position:relative;
-    justify-content: center;
+    margin: 2rem;
     align-items: center;
-    
 }
-
 
 h2{
     display: flex;
     justify-content: center;
 }
 
-
-
-.centralizar{
-    display: flex;
-    justify-content: center;
-
-}
-
 .coluna{
     display: flex;
     flex-direction: column;
+}
+
+li{
+    margin: 3rem;
+}
+
+.borda{
+    border: 0.1rem black solid;
 }
