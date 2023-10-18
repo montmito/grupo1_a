@@ -13,14 +13,13 @@ h1{
 h2{
     font-size: 2rem;
     background-color: rgb(204, 200, 200);
-    width: 35rem;
+    width: 90%;
     display: flex;
     justify-content: center;
 }
 
 .voltar{
-    height: 3rem;
-    width: 3rem;
+    width: 7%;
     position: absolute;
     left: 0.5rem;
     top: 0.5rem;
@@ -30,8 +29,7 @@ h2{
     position: absolute;
     right: 1rem;
     top: 4.5rem;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 6%;
 }
 
 main{

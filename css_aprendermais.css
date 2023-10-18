@@ -11,8 +11,7 @@ header{
     position: absolute;
     top: 1rem;
     left: 0.5rem;
-    height: 3rem;
-    width: 3rem;
+    height: 60%;
 }
 
 h1{
@@ -34,8 +33,7 @@ main{
 
 .imgplay{
     position: absolute;
-    width: 3rem;
-    height: 3rem;
+    width: 70%;
     top: 0.5rem;
     left: 0.5rem;
 }
