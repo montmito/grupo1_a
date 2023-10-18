@@ -4,7 +4,7 @@ header{
     font-size: 3rem;
     display: flex;
     justify-content: center;
-    margin: 3rem;
+    margin: 1rem;
     padding: 1rem;
 }
 
@@ -14,22 +14,26 @@ main{
 }
 
 .seus_invest{
+    display: flex;
+    flex-direction: column;
     border: 0.1rem black solid;
-    margin: 3rem;
+    margin: 1rem;
     padding: 1rem;
     background-color: rgb(199, 197, 197);
 }
 
 .b3{
-    height: 8rem;
-    width: 10rem;
+    height: 30%;
+    width: 40%;
     padding-bottom: 1rem;
 }
 
-h2{
+h1{
     font-size: 1.5rem;
-    padding-left: 7rem;
-    padding-top: 1rem;
+}
+
+h2{
+    font-size: 1rem;
 }
 
 .center{
@@ -49,26 +53,30 @@ h2{
 
 .invst{
     border: 0.1rem black solid;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
     margin-bottom: 3rem;
-    height: 4rem;
-    width: 17rem;
+    height: 70%;
+    width: 80%;
 }
 
 .saiba_mais{
     border: 0.1rem black solid;
     background-color: rgb(187, 255, 187);
-    margin-top: 3rem;
-    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
     margin-bottom: 3rem;
-    height: 4rem;
-    width: 19rem;
+    height: 70%;
+    width: 90%;
+    max-width: 200px;
 }
 
 .vinc{
     border: 0.1rem black solid;
     background-color: rgb(150, 166, 249);
+    height: 70%;
+    width: 90%;
+    margin: 1rem;
 }
 
 footer{
@@ -79,11 +87,11 @@ footer{
 }
 
 .sif{
-    border: 0.1rem black solid;
-    background-color: rgb(40, 37, 37);
+    height: 70%;
+    width: 100%;
 }
 
 .chat{
-    border: 0.1rem black solid;
-    background-color: rgb(40, 37, 37);
+    height: 70%;
+    width: 100%;
 }
