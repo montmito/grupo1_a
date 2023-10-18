@@ -36,9 +36,9 @@ main{
 
 .imgplay{
     position: absolute;
-    width: 70%;
-    top: 0.5rem;
-    left: 0.5rem;
+    width: 20%;
+    top: 20%;
+    left: 40%;
 }
 
 .linha{
@@ -57,7 +57,7 @@ main{
 .org{
     margin-top: 3rem;
     margin-left: -2.7rem;
-    width: 160%;
+    width: 120%;
 }
 
 .home{
@@ -66,4 +66,11 @@ main{
     position: absolute;
     right: -3rem;
     top: -3rem;
+}
+
+
+ol{
+    position:relative;
+
+
 }
