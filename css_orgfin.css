@@ -23,7 +23,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    min-height: 200px;
     margin: 5rem;
 }
 
@@ -32,26 +32,26 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    min-height: 200px;
     margin: 5rem;
 }
 
 .voltar{
     position: absolute;
-    top: 1rem;
+    top: 1.5rem;
     left: 1rem;
-    height: 3rem;
-    width: 3rem; /*REVISAR CODIGO, NAO SEI SE ESTA RESPONSIVO O LAYOUT*/
+    width: 10%; 
 }
 
 .excel{
-    height: 3rem;
-    width: 3rem; 
+    padding-left: 1rem;
+    height: 70%;
+    width: 70%; 
 }
 
 .home{
-    height: 5rem;
-    width: 5rem;
+    height: 10%;
+    width: 20%;
     position: absolute;
     right: 1rem;
 }

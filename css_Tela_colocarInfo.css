@@ -29,7 +29,7 @@ main{
     justify-content: space-between;
     padding-bottom: 2rem;
     margin: 3rem;
-    height: 40rem;
+    min-height: 400px;
 }
 
 .linha{
