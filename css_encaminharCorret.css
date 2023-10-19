@@ -44,10 +44,29 @@ footer{
 
 section{
     border: 0.1rem solid black;
-
     background-color: rgb(189, 186, 186);
     width: 70%;
     margin-left: 4rem;
+    justify-self: center;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.graf{
+    height: 70%;
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-self: center;
+}
+
+.encaminhar{
+    justify-self: center;
+    height: 100%;
+    width: 70%;
+}
