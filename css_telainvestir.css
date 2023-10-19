@@ -1,20 +1,12 @@
 header{
-    border: 0.1rem black solid;
-    padding: 1rem;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
+    flex-direction: column;
 }
 
 .voltar{
-    height: 2.5rem;
-    width: 2.5rem;
+    width: 10%;
     display: flex;
     justify-content: start;
-    position:absolute;
-    top: 0.5rem;
-    left:0.5rem;
 }
 
 .coluna{
@@ -22,10 +14,21 @@ header{
     flex-direction: column;
 }
 
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
 .imagens_do_main{
+    border: 0.1rem solid black;
+    background-color: rgb(180, 179, 179);
     padding: 1rem;
-    width: 6rem;
-    height: 4rem;
+    margin: 1rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .centralizar{
@@ -33,12 +36,49 @@ header{
     justify-content: center;
 }
 
-
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 footer{
     padding-bottom: 3rem;
     padding-top: 3rem;
+}
+
+.home{
+    height: 60%;
+    width: 50%;
+    margin-left: 4rem;
+}
+
+.space-bet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    background-color: rgb(189, 186, 186);
+    width: 70%;
+    margin-left: 4rem;
+}
+
+.itau{
+    width: 100%;
+}
+
+.petro{
+    width: 57%;
+}
+
+.vale{
+    width: 100%;
+}
+
+.cielo{
+    width: 100%;
 }
