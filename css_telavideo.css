@@ -1,11 +1,10 @@
 .voltar{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 30%;
     display: flex;
     justify-content: start;
     position:absolute;
-    top: 0.2rem;
-    left:0.5rem;
+    top: 1rem;
+    left:0.1rem;
 }
 
 header{
@@ -17,25 +16,28 @@ header{
     position: relative;
 }
 
-main{
-    margin: 2rem;
-    align-items: center;
-}
-
-h2{
-    display: flex;
-    justify-content: center;
-}
-
-.coluna{
-    display: flex;
-    flex-direction: column;
-}
-
-li{
-    margin: 3rem;
-}
 
 .borda{
     border: 0.1rem black solid;
+}
+
+li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    overflow: scroll;
+}
+
+.img1{
+    height: 70%;
+    width:85%;
 }
