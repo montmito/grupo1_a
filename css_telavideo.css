@@ -41,3 +41,8 @@ main{
     height: 70%;
     width:85%;
 }
+
+.home{
+    position: absolute;
+    height: 30%;
+}
