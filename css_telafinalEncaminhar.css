@@ -32,12 +32,6 @@ h1{
     justify-content: center;
 }
 
-.space-between{
-    display:flex;
-    align-items: space-between;
-}
-
-
 a{
     padding-top: 0.4rem;
     padding-bottom: 0.5rem;
