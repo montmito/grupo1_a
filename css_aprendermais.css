@@ -44,15 +44,7 @@ main{
 .linha{
     display: flex;
     flex-direction: row;
-    align-items: space-around;
-    
 }
-
-.space-around{
-    display: flex;
-    justify-content: space-around;
-}
-
 
 .org{
     margin-top: 3rem;
