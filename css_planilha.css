@@ -8,6 +8,15 @@ header{
 
 h1{
     font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+th{
+    font-family: 'Libre Baskerville', serif;
+}
+
+td{
+    font-family: 'Libre Baskerville', serif;
 }
 
 h2{
