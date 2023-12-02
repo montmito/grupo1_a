@@ -1,15 +1,16 @@
 .voltar{
-    height: 30%;
+    height: 80%;
     display: flex;
     justify-content: start;
     position:absolute;
-    top: 1rem;
+    top: 0.3rem;
     left:0.1rem;
 }
 
 header{
     border: 0.1rem black solid;
     padding: 1rem;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,6 +27,7 @@ li{
     margin-bottom: 1rem;
     margin-left: 3rem;
 }
+
 .center{
     display: flex;
     flex-direction: column;
@@ -44,7 +46,9 @@ main{
 
 .home{
     position: absolute;
-    height: 30%;
+    height: 80%;
+    top: 0.3rem;
+    right: 0.1rem;
 }
 
 h1{
