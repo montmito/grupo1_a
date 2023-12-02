@@ -57,3 +57,8 @@ footer{
     width: 40%;
     height: 90%;
 }
+
+h2{
+    font-size: 1rem;
+    font-family: 'Libre Baskerville', serif;
+}
