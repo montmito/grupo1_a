@@ -54,7 +54,6 @@ h2{
 }
 
 .invst{
-    border: 0.1rem black solid;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-bottom: 3rem;
@@ -63,8 +62,6 @@ h2{
 }
 
 .saiba_mais{
-    border: 0.1rem black solid;
-    background-color: rgb(173,173,173);
     margin-top: 1rem;
     margin-right: 1rem;
     margin-bottom: 3rem;
@@ -74,8 +71,6 @@ h2{
 }
 
 .vinc{
-    border: 0.1rem black solid;
-    background-color: rgb(173,173,173);
     height: 70%;
     width: 90%;
     margin: 1rem;
