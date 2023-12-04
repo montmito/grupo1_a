@@ -84,4 +84,39 @@ document.addEventListener('DOMContentLoaded', function() {
         acao = 'vale'
         localStorage.setItem('ação', acao)
     })
+
+    //Filtro de ações
+    text = document.querySelector('input[type="text"]')
+    submit = document.querySelector('input[type="submit"]')
+
+    submit.addEventListener('click', function(event) {
+        value = text.value
+        if (value == 'Crescente'){
+            petrobras_img.style.display = 'none'
+            vale_img.style.display = 'none'
+        }
+        else if (value == 'Decrescente'){
+            cielo_img.style.display = 'none'
+            itau_img.style.display = 'none'
+            vale_img.style.display = 'none'
+        }
+        else if (value == 'Neutro'){
+            cielo_img.style.display = 'none'
+            itau_img.style.display = 'none'
+            petrobras_img.style.display = 'none'
+        }
+        else if (value == 'Reiniciar'){
+            cielo_img.style.display = ''
+            itau_img.style.display = ''
+            petrobras_img.style.display = ''
+            vale_img.style.display = ''
+            msg.innerHTML = ''
+        }
+        else{
+            footer = document.querySelector('footer')
+            msg = document.createElement('p')
+            msg.innerHTML = 'Por favor usar apenas as palavras Crescente, Decrescente e Neutro no filtro, caso queira reiniciar o filtro use: Reiniciar'
+            footer.appendChild(msg)
+        }
+    })
 })
