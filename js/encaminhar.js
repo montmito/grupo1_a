@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
     //Pop up corretora
     corret_img = document.querySelector("#corret_img")
     corret_img.addEventListener("mouseover", function(event){
-        console.log(corret_img)
         img = document.createElement('img');
         img.classList.add("pop_corret")
         img.src = "img/fechar_img.png";

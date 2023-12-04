@@ -24,8 +24,5 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('#tres').href = "Tela_colocarinfo.html"
         document.querySelector('#quatro').href = "Tela_colocarinfo.html"
         document.querySelector('#cinco').href = "Tela_colocarinfo.html"
-        console.log(document.querySelector('#um').href)
-        console.log(document.querySelector('#um'))
-
     }
 })
