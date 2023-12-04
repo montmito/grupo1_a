@@ -46,4 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
         img = vinc_img.querySelector('.pop_vinc')
         img.remove()
     })
+
+    //Verificando se usuário fez login
+    user = localStorage.getItem('user')
+    console.log(user)
 })
