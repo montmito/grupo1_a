@@ -117,4 +117,12 @@ document.addEventListener('DOMContentLoaded', function() {
         itau_img.style.display = ''
         vale_img.style.display = ''
     })
+
+    //Verificando se a conta foi vinculada
+    user = localStorage.getItem('user')
+    console.log(user)
+    if (user != ''){
+        h1 = document.querySelector('h1')
+        h1.innerHTML = 'Saldo: R$999.850,56'
+    }
 })
