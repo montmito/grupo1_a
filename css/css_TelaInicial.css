@@ -22,7 +22,8 @@ main{
     background-color: rgb(133, 187, 101);
 }
 
-.b3{
+.acao{
+    display: none;
     height: 30%;
     width: 40%;
     padding-bottom: 1rem;

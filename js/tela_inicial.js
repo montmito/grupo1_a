@@ -50,4 +50,11 @@ document.addEventListener('DOMContentLoaded', function() {
     //Verificando se usuário fez login
     user = localStorage.getItem('user')
     console.log(user)
+    if (user != ''){
+        nome = document.querySelector('#nome')
+        nome.innerHTML = 'Olá, '+user+'!'
+
+        investimentos = document.querySelector('.acao')
+        investimentos.style.display = 'block'
+    }
 })
