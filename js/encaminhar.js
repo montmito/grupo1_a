@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Caso petrobras tenha sido clicado antes
-    if (click == 'pt'){
+    if (click == 'petrobras'){
         graf = document.querySelector('.graf')
         graf.src = "img/dec_graf.jpg"
         h2 = document.querySelector('h2')
-        h2.innerHTML = 'Ações da Cielo caem 100%'
+        h2.innerHTML = 'Ações da Petrobras caem 100%'
         h3 = document.querySelector('h3')
         h3.innerHTML = 'Alta volatilidade'
         h4 = document.querySelector('h4')

@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Lembrando qual ação foi clicada
     petrobras_img.addEventListener("click", function(event){
-        acao = 'pt'
+        acao = 'petrobras'
         localStorage.setItem('ação', acao)
     })
 

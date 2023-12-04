@@ -119,3 +119,13 @@ footer{
     width: 15%;
     margin-left: -4.5rem;
 }
+
+#add_acao{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.novo{
+    height: 10%;
+    width: 30%;
+}
