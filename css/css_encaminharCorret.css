@@ -97,5 +97,11 @@ h4{
     border: 0.1rem solid black;
     width: 60%;
     margin: 1rem;
+}
 
+.pop_corret{
+    height: 10%;
+    width: 10%;
+    margin-left: 33rem;
+    margin-top: -5rem
 }
