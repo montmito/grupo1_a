@@ -104,3 +104,13 @@ section{
     top: 3.3rem;
     right: 7rem;
 }
+
+.pop_cielo{
+    margin-top: 1rem;
+    height: 40%;
+    width: 40%;
+}
+
+#cielo_img{
+    display: block;
+}
