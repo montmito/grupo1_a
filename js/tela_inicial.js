@@ -17,14 +17,20 @@ document.addEventListener('DOMContentLoaded', function() {
     orgfin_img = document.querySelector("#orgfin_img")
     orgfin_img.addEventListener("mouseover", function(event){
         img = document.createElement('img');
+        img2 = document.createElement('img');
         img.classList.add("pop_org")
+        img2.classList.add("pop_yt")
         img.src = "img/imagem_org.jpg";
+        img2.src = "img/yt_popup.png";
         orgfin_img.appendChild(img);
+        orgfin_img.appendChild(img2);
     })
 
     orgfin_img.addEventListener("mouseout", function(event){
         img = orgfin_img.querySelector('.pop_org')
+        img2 = orgfin_img.querySelector('.pop_yt')
         img.remove()
+        img2.remove()
     })
 
     // Pop up Vincular conta
