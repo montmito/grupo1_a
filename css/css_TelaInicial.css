@@ -94,13 +94,21 @@ footer{
 .pop_invs{
     height: 30%;
     width: 10%;
+    margin-bottom: 5rem;
 }
 
-.absolute{
-    position: absolute;
+.pop_org{
+    height: 30%;
+    width: 10%;
+    margin-bottom: 5rem;
 }
 
 #invest_img{
     max-width: 400px;
     max-height: 300px;
+}
+
+.pop_vinc{
+    height: 50%;
+    width: 20%;
 }
