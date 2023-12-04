@@ -86,21 +86,14 @@ footer{
     justify-content: space-between;
 }
 
-.sif{
-    height: 70%;
-    width: 100%;
-}
-
 .chat{
     height: 70%;
     width: 100%;
 }
 
-.add{
-    position: relative;
+.pop_invs{
     height: 30%;
     width: 10%;
-    top: 1rem;
 }
 
 .absolute{
@@ -108,6 +101,6 @@ footer{
 }
 
 #invest_img{
-    top: 19rem;
-    left: 3rem;
+    max-width: 400px;
+    max-height: 300px;
 }
