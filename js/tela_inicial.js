@@ -49,12 +49,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Verificando se usuário fez login
     user = localStorage.getItem('user')
-    console.log(user)
-    if (user != ''){
+    if (user != null){
         nome = document.querySelector('#nome')
         nome.innerHTML = 'Olá, '+user+'!'
 
         investimentos = document.querySelector('.acao')
         investimentos.style.display = 'block'
+    }
+
+    //Verificando se foi completo uma ação
+    fechou = localStorage.getItem('fim')
+    console.log(fechou)
+    acao = localStorage.getItem('ação')
+    if (fechou = true && acao != null){
+        fechou = false
+        ac = document.querySelector('#add_acao')
+        img = document.createElement('img')
+        img.classList.add('novo')
+        img.src = "img/invest/"+acao+'.png'
+        ac.appendChild(img)
     }
 })

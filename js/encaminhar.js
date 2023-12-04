@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Caso itau tenha sido clicado antes
     if (click == 'itau'){
         graf = document.querySelector('.graf')
-        console.log(graf)
         graf.src = "img/grafico_subindo.png"
         h2 = document.querySelector('h2')
         h2.innerHTML = 'Ações do Itaú sobem 50%'
@@ -17,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Caso cielo tenha sido clicado antes
     if (click == 'cielo'){
         graf = document.querySelector('.graf')
-        console.log(graf)
         graf.src = "img/graf_exp.jpg"
         h2 = document.querySelector('h2')
         h2.innerHTML = 'Ações da Cielo crescem 300%'
@@ -30,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Caso petrobras tenha sido clicado antes
     if (click == 'pt'){
         graf = document.querySelector('.graf')
-        console.log(graf)
         graf.src = "img/dec_graf.jpg"
         h2 = document.querySelector('h2')
         h2.innerHTML = 'Ações da Cielo caem 100%'
@@ -43,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Caso vale tenha sido clicado antes
     if (click == 'vale'){
         graf = document.querySelector('.graf')
-        console.log(graf)
         graf.src = "img/neutro_graf.jpg"
         h2 = document.querySelector('h2')
         h2.innerHTML = 'Crescimento bem baixo'

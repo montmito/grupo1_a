@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    //limpando armazenamento
+    localStorage.clear();
     //Armazenando usuário
     div = document.querySelector('#usuario')
 
