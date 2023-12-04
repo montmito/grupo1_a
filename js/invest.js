@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
         img.remove()
         img2.remove()
     })
+    
+    //Lembrando qual ação foi clicada
+    cielo_img.addEventListener("click", function(event){
+        acao = 'cielo'
+        localStorage.setItem('ação', acao)
+    })
 
     //Pop up itaú
     itau_img = document.querySelector("#itau_img")
@@ -31,6 +37,12 @@ document.addEventListener('DOMContentLoaded', function() {
     itau_img.addEventListener("mouseout", function(event){
         img = itau_img.querySelector('.pop_itau')
         img.remove()
+    })
+
+    //Lembrando qual ação foi clicada
+    itau_img.addEventListener("click", function(event){
+        acao = 'itau'
+        localStorage.setItem('ação', acao)
     })
 
     //Pop petrobras
@@ -47,6 +59,12 @@ document.addEventListener('DOMContentLoaded', function() {
         img.remove()
     })
 
+    //Lembrando qual ação foi clicada
+    petrobras_img.addEventListener("click", function(event){
+        acao = 'pt'
+        localStorage.setItem('ação', acao)
+    })
+
     //Pop vale
     vale_img = document.querySelector("#vale_img")
     vale_img.addEventListener("mouseover", function(event){
@@ -59,5 +77,11 @@ document.addEventListener('DOMContentLoaded', function() {
     vale_img.addEventListener("mouseout", function(event){
         img = vale_img.querySelector('.pop_vale')
         img.remove()
+    })
+
+    //Lembrando qual ação foi clicada
+    vale_img.addEventListener("click", function(event){
+        acao = 'vale'
+        localStorage.setItem('ação', acao)
     })
 })
