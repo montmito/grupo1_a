@@ -45,7 +45,7 @@ footer{
 
 section{
     border: 0.1rem solid black;
-    background-color: rgb(173,173,173);
+    background-color: rgb(133,187,101);
     width: 70%;
     margin-left: 4rem;
     justify-self: center;
@@ -68,7 +68,8 @@ main{
 .encaminhar{
     height: 100%;
     width: 80%;
-    margin-left: 1.2rem;
+    max-width: 200px;
+    margin-left: 0.7rem;
 }
 
 h2{
@@ -97,5 +98,9 @@ h4{
     border: 0.1rem solid black;
     width: 60%;
     margin: 1rem;
+}
 
+.pop_corret{
+    height: 10%;
+    width: 10%;
 }
